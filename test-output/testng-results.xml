@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="55373" started-at="2020-02-21T00:14:08Z" finished-at="2020-02-21T00:15:04Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="55373" started-at="2020-02-21T00:14:08Z" finished-at="2020-02-21T00:15:04Z">
+      <class name="com.nil.tests.NewTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.nil.tests.NewTest@23c30a20]" name="beforeClass" is-config="true" duration-ms="8347" started-at="2020-02-20T19:14:08Z" finished-at="2020-02-20T19:14:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:com.nil.tests.NewTest@23c30a20]" name="login" duration-ms="14748" started-at="2020-02-20T19:14:18Z" data-provider="authenticationData" finished-at="2020-02-20T19:14:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GGG145]]>
+              </value>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:com.nil.tests.NewTest@23c30a20]" name="login" duration-ms="14335" started-at="2020-02-20T19:14:32Z" data-provider="authenticationData" finished-at="2020-02-20T19:14:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GGG146]]>
+              </value>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:com.nil.tests.NewTest@23c30a20]" name="login" duration-ms="14276" started-at="2020-02-20T19:14:47Z" data-provider="authenticationData" finished-at="2020-02-20T19:15:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GGG147]]>
+              </value>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.nil.tests.NewTest@23c30a20]" name="afterClass" is-config="true" duration-ms="2671" started-at="2020-02-20T19:15:01Z" finished-at="2020-02-20T19:15:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.nil.tests.NewTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
